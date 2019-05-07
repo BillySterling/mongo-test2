@@ -1,0 +1,23 @@
+{
+  "name": "mongo-test2",
+  "version": "1.0.0",
+  "description": "test workarea for mongo and mongoose",
+  "main": "test1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node scripts/userseeds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BillySterling/mongo-test2.git"
+  },
+  "author": "Billy Sterling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BillySterling/mongo-test2/issues"
+  },
+  "homepage": "https://github.com/BillySterling/mongo-test2#readme",
+  "dependencies": {
+    "mongoose": "^5.5.6"
+  }
+}
