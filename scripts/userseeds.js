@@ -52,10 +52,10 @@ const userSeed = [
 
 console.log(userSeed);
 
-db.Alluser.deleteMany({})
-  .then(() => db.Alluser.insertMany(userSeed))
-  .then(alluserData => {
-    console.log(alluserData);
+db.User.deleteMany({})
+  .then(() => db.User.insertMany(userSeed))
+  .then(userData => {
+    console.log(userData);
   });
 
 process.exit(0);
